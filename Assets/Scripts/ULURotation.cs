@@ -19,5 +19,9 @@ public class ULURotation : MonoBehaviour
         {
             transform.Rotate(0, 0, 180);
         }
+        if (Mathf.Round(transform.rotation.eulerAngles.z) == 0)
+        {
+            transform.Rotate(0, 0, 180);
+        }
     }
 }

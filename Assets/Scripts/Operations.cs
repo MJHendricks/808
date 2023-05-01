@@ -9,6 +9,9 @@ public class Operations : MonoBehaviour
     public GameObject[] hexes;
     public GameObject[] solution;
 
+    private static bool loadGame = false;
+
+
     public float[] angles;
     private bool[] test;
 
@@ -16,6 +19,7 @@ public class Operations : MonoBehaviour
 
     void Start()
     {
+
         test = new bool[angles.Length];
     }
 
@@ -27,6 +31,7 @@ public class Operations : MonoBehaviour
             if (Mathf.Round(hexes[i].transform.rotation.eulerAngles.z) == angles[i])
             {
                 test[i] = true;
+               
             }
             else
             {
@@ -61,5 +66,25 @@ public class Operations : MonoBehaviour
     {
         yield return new WaitForSeconds(0.7f);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+
+    private void Awake()
+    {
+        if (!loadGame)
+        {
+            loadGame = true;
+        //    LoadLastScene();
+        //    SceneManager.sceneLoaded += OnSceneLoaded; 
+        }
+    }
+
+    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        PlayerPrefs.SetString("_last_scene_", scene.name);
+    }
+
+    public static void LoadLastScene()
+    {
+        SceneManager.LoadScene(PlayerPrefs.GetString("_last_scene_"));
     }
 }

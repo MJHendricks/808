@@ -14,5 +14,6 @@ public class Rotate : MonoBehaviour
     public void OnMouseDown()
     {
         transform.Rotate(0,0,60);
+
     }
 }
