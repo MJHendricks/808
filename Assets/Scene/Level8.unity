@@ -811,8 +811,13 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 01198102c3ee8244da363b7989cf9c1a,
+      objectReference: {fileID: 21300000, guid: c6552bf641f3ccc45b2e38b124ebc0ca,
         type: 3}
+    - target: {fileID: 3824067799959557060, guid: 4a0b318fece121a4393c18f22875b984,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3824067799959557061, guid: 4a0b318fece121a4393c18f22875b984,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1111,8 +1116,13 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 01198102c3ee8244da363b7989cf9c1a,
+      objectReference: {fileID: 21300000, guid: c6552bf641f3ccc45b2e38b124ebc0ca,
         type: 3}
+    - target: {fileID: 3824067799959557060, guid: 4a0b318fece121a4393c18f22875b984,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3824067799959557061, guid: 4a0b318fece121a4393c18f22875b984,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1307,7 +1317,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.95294124, g: 0.48627454, b: 0.25882354, a: 1}
+  m_Color: {r: 0.3019608, g: 0.8941177, b: 0.81568635, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
