@@ -544,8 +544,13 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: f3701798377600f4ea4e91615ad095dc,
+      objectReference: {fileID: 21300000, guid: fdb4b81b1ea91234a8debcc01a71ae58,
         type: 3}
+    - target: {fileID: 6793050408353303328, guid: ba9887977c27ffe4b8d6b4237fdd197f,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6793050408353303331, guid: ba9887977c27ffe4b8d6b4237fdd197f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -680,7 +685,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 6f961b4427adc5140b53b18b1cc3fe78,
+      objectReference: {fileID: 21300000, guid: 226d11728be51b74c987097bd6cec4ff,
         type: 3}
     - target: {fileID: 4620135287699065316, guid: 3d62ba4f8031bfa40b9ba452bb5f9a28,
         type: 3}
@@ -1554,7 +1559,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.8941177, g: 0.8470589, b: 0.3019608, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -1593,6 +1598,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: MRLR
       objectReference: {fileID: 0}
+    - target: {fileID: 3995516967539036484, guid: 374091b3a238cb74f933074e12cebf62,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 51bc0a5caa0c38d4ea77b3d534e76fc0,
+        type: 3}
     - target: {fileID: 8937523470215236259, guid: 374091b3a238cb74f933074e12cebf62,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1783,7 +1794,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: f3701798377600f4ea4e91615ad095dc,
+      objectReference: {fileID: 21300000, guid: fdb4b81b1ea91234a8debcc01a71ae58,
         type: 3}
     - target: {fileID: 6793050408353303331, guid: ba9887977c27ffe4b8d6b4237fdd197f,
         type: 3}
@@ -2596,7 +2607,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: add2764d07dd55a46adf40fc9d02c39c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

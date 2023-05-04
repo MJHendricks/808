@@ -73,8 +73,8 @@ public class Operations : MonoBehaviour
         if (!loadGame)
         {
             loadGame = true;
-        //    LoadLastScene();
-        //    SceneManager.sceneLoaded += OnSceneLoaded; 
+            LoadLastScene();
+            SceneManager.sceneLoaded += OnSceneLoaded; 
         }
     }
 

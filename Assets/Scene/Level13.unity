@@ -132,7 +132,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: f3701798377600f4ea4e91615ad095dc,
+      objectReference: {fileID: 21300000, guid: fdb4b81b1ea91234a8debcc01a71ae58,
         type: 3}
     - target: {fileID: 6793050408353303331, guid: ba9887977c27ffe4b8d6b4237fdd197f,
         type: 3}
@@ -720,7 +720,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: f3701798377600f4ea4e91615ad095dc,
+      objectReference: {fileID: 21300000, guid: fdb4b81b1ea91234a8debcc01a71ae58,
         type: 3}
     - target: {fileID: 4853509111175248010, guid: dc357f2cbc586f340bafd16cc5365b44,
         type: 3}
@@ -1112,7 +1112,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 752997733eaa28645ac706c98f36b167,
+      objectReference: {fileID: 21300000, guid: 3d7966b1b4a64a84cba9dabded19e90d,
         type: 3}
     - target: {fileID: 3824067799959557061, guid: 4a0b318fece121a4393c18f22875b984,
         type: 3}
@@ -1729,7 +1729,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.8941177, g: 0.8470589, b: 0.3019608, a: 1}
+  m_Color: {r: 0.86666673, g: 0.19607845, b: 0.19607845, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -2384,7 +2384,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: f3701798377600f4ea4e91615ad095dc,
+      objectReference: {fileID: 21300000, guid: fdb4b81b1ea91234a8debcc01a71ae58,
         type: 3}
     - target: {fileID: 6793050408353303331, guid: ba9887977c27ffe4b8d6b4237fdd197f,
         type: 3}
@@ -2459,7 +2459,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: f3701798377600f4ea4e91615ad095dc,
+      objectReference: {fileID: 21300000, guid: fdb4b81b1ea91234a8debcc01a71ae58,
         type: 3}
     - target: {fileID: 6793050408353303331, guid: ba9887977c27ffe4b8d6b4237fdd197f,
         type: 3}

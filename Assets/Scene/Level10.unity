@@ -1020,8 +1020,13 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 0701e2b360de5e4499acbbd8e8dbba30,
+      objectReference: {fileID: 21300000, guid: 74be6b9969a54b145b56e5eb9fd0829c,
         type: 3}
+    - target: {fileID: 6793050408353303328, guid: ba9887977c27ffe4b8d6b4237fdd197f,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6793050408353303331, guid: ba9887977c27ffe4b8d6b4237fdd197f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1684,7 +1689,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.43529415, g: 0.7019608, b: 0.8313726, a: 1}
+  m_Color: {r: 0.3019608, g: 0.8941177, b: 0.81568635, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -2126,7 +2131,7 @@ PrefabInstance:
     - target: {fileID: 4620135287699065312, guid: 3d62ba4f8031bfa40b9ba452bb5f9a28,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.35
+      value: 0.27
       objectReference: {fileID: 0}
     - target: {fileID: 4620135287699065312, guid: 3d62ba4f8031bfa40b9ba452bb5f9a28,
         type: 3}
@@ -2454,8 +2459,13 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 0701e2b360de5e4499acbbd8e8dbba30,
+      objectReference: {fileID: 21300000, guid: 74be6b9969a54b145b56e5eb9fd0829c,
         type: 3}
+    - target: {fileID: 6793050408353303328, guid: ba9887977c27ffe4b8d6b4237fdd197f,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6793050408353303331, guid: ba9887977c27ffe4b8d6b4237fdd197f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2464,7 +2474,7 @@ PrefabInstance:
     - target: {fileID: 6793050408353303331, guid: ba9887977c27ffe4b8d6b4237fdd197f,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.24
+      value: 3.15
       objectReference: {fileID: 0}
     - target: {fileID: 6793050408353303331, guid: ba9887977c27ffe4b8d6b4237fdd197f,
         type: 3}

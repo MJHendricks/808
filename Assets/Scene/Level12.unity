@@ -917,7 +917,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 24ce9578730f0ec48b2136c74753734d,
+      objectReference: {fileID: 21300000, guid: f977e371b5370654aa233f48f54319e0,
         type: 3}
     - target: {fileID: 4853509111175248010, guid: dc357f2cbc586f340bafd16cc5365b44,
         type: 3}
@@ -2314,7 +2314,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 24ce9578730f0ec48b2136c74753734d,
+      objectReference: {fileID: 21300000, guid: f977e371b5370654aa233f48f54319e0,
         type: 3}
     - target: {fileID: 4853509111175248010, guid: dc357f2cbc586f340bafd16cc5365b44,
         type: 3}
@@ -2379,7 +2379,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.26666668, g: 0.7254902, b: 0.41960788, a: 1}
+  m_Color: {r: 0.95294124, g: 0.48627454, b: 0.25882354, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -2483,7 +2483,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 24ce9578730f0ec48b2136c74753734d,
+      objectReference: {fileID: 21300000, guid: f977e371b5370654aa233f48f54319e0,
         type: 3}
     - target: {fileID: 4853509111175248010, guid: dc357f2cbc586f340bafd16cc5365b44,
         type: 3}
@@ -3003,7 +3003,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 24ce9578730f0ec48b2136c74753734d,
+      objectReference: {fileID: 21300000, guid: f977e371b5370654aa233f48f54319e0,
         type: 3}
     - target: {fileID: 6793050408353303331, guid: ba9887977c27ffe4b8d6b4237fdd197f,
         type: 3}
